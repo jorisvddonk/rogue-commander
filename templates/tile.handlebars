@@ -1,0 +1,15 @@
+<div 
+	id="{{id}}"
+	class="
+		tile
+		{{#inArray sectors.north.objects "wall"}}tile-wall-north{{/inArray}}
+		{{#inArray sectors.east.objects "wall"}}tile-wall-east{{/inArray}}
+		{{#inArray sectors.south.objects "wall"}}tile-wall-south{{/inArray}}
+		{{#inArray sectors.west.objects "wall"}}tile-wall-west{{/inArray}}
+	
+	" 
+	style="
+		left: {{multiply x 50}}; 
+		top: {{multiply y 50}};
+ 	"
+ ></div>
